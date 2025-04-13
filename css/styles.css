@@ -40,7 +40,9 @@ body {
     color: #2e2f42;
     margin-right: 76px;
 }
-
+img {
+    display: block;
+}
 a {
     text-decoration: none;
     color: var(--slate);
@@ -52,6 +54,10 @@ ul {
 
 .logo-span{
     color: #4d5ae5;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -75,11 +81,13 @@ ul {
     color: var(--navy-blue);
     flex-direction: row;
     gap: 40px;
+    align-items: center;
 }
 
 .header-container-address {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .header-container-address-ul {
@@ -92,4 +100,5 @@ ul {
     display: flex;
     flex-direction: row;
     gap: 40px;
+    align-items: center;
 }
