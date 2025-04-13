@@ -85,6 +85,15 @@ ul {
     padding: 24px 0;
 }
 
+.nav-list {
+    padding: 24px 0;
+}
+
+.nav-list-a {
+    padding: 24px 0;
+    display: block;
+}
+
 .header-container-address {
     display: flex;
     flex-direction: row;
@@ -102,4 +111,40 @@ ul {
     flex-direction: row;
     gap: 40px;
     align-items: center;
+}
+
+.solutions {
+    padding: 188px 0;
+    background-color: var(--navy-blue);
+    width: 1440px;
+    height: 600px;
+}
+
+.first-header {
+    max-width: 496px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    margin: auto;
+    color: var(--white);
+    margin-bottom: 48px;
+}
+
+.solutions-button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    margin: auto;
 }
