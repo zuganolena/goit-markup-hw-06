@@ -157,6 +157,8 @@ ul {
     display: flex;
     flex-direction: row;
     gap: 24px;
+    align-items: center;
+    padding: 120px 0;
 }
 
 .third-header {
