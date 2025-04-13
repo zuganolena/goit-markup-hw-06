@@ -82,6 +82,7 @@ ul {
     flex-direction: row;
     gap: 40px;
     align-items: center;
+    padding: 24px 0;
 }
 
 .header-container-address {
@@ -101,7 +102,6 @@ ul {
     flex-direction: row;
     gap: 40px;
     align-items: center;
-    padding: 24px 0;
 }
 
 .header-container-nav-ul-li{
