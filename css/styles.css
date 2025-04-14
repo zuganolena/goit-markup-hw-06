@@ -260,9 +260,11 @@ ul {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    
 }
 
 .portfolio-list-li {
+    display: block;
     width: calc((100% - 48px) / 3);
 }
 
