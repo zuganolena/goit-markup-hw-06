@@ -200,11 +200,13 @@ ul {
 
 .team {
     padding: 120px 0;
-    
+    margin: auto;
+
 }
 
 .team.sec {
     background: var(--cloud);
+    margin: auto;
 }
 
 .team-title {
