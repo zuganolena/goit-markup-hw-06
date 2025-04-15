@@ -200,6 +200,10 @@ ul {
 
 .team {
     padding: 120px 0;
+    
+}
+
+.team.sec {
     background: var(--cloud);
 }
 
