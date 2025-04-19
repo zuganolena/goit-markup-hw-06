@@ -24,6 +24,10 @@ body {
     background-color: #FFFFFF;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
 .container {
     width: 1158px;
     margin: 0 auto;
@@ -50,6 +54,8 @@ a {
 
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .logo-span{
@@ -86,9 +92,7 @@ ul {
     padding: 24px 0;
 }
 
-.nav-list {
-    padding: 24px 0;
-}
+.nav-list {}
 
 .nav-list-a {
     padding: 24px 0;
@@ -99,6 +103,7 @@ ul {
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-style: normal;
 }
 
 .header-container-address-ul {
@@ -117,8 +122,6 @@ ul {
 .solutions {
     padding: 188px 0;
     background-color: var(--navy-blue);
-    width: 1440px;
-    height: 600px;
 }
 
 .first-header {
@@ -159,7 +162,6 @@ ul {
     flex-direction: row;
     gap: 24px;
     align-items: center;
-    padding: 120px 0;
 }
 
 .third-header {
@@ -183,6 +185,7 @@ ul {
 
 .feature-li {
     flex-basis: calc((100% - 3 * 24px) / 4);
+    background-color: #fff;
 }
 
 .visually-hidden {
@@ -200,10 +203,13 @@ ul {
 
 .team {
     padding: 120px 0;
+    background-color: #F4F4FD;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .team.sec {
-    background: var(--cloud);
+    background-color: #F4F4FD;
     margin-left: auto;
     margin-right: auto;
 }
