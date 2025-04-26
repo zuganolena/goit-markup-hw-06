@@ -226,7 +226,8 @@ ul {
   border-radius: 4px;
   width: 264px;
   height: 112px;
-  background-color:#f4f4fd; 
+  background-color:#f4f4fd;
+  margin-bottom: 8px;
 }
 
 .third-header {
@@ -305,6 +306,18 @@ ul {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: var(--white);
+}
+
+.members-contacts {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.contacts-list {
+  width: 40px;
+  height: 40px;
+  
 }
 
 .team-main-title {
