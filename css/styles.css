@@ -388,7 +388,7 @@ ul {
 
 .portfolio-list-li {
   width: calc((100% - 48px) / 3);
-  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-name {
@@ -436,6 +436,12 @@ ul {
   background: var(--navy-blue);
 }
 
+.container-footer {
+  align-items: baseline;
+  display: flex;
+
+}
+
 .footer-text {
   font-family: var(--font-family);
   font-weight: 400;
@@ -461,4 +467,23 @@ ul {
 
 .logo-span-footer {
   color: #4d5ae5;
+}
+
+.logo-text-box {
+  margin-right: 120px;
+}
+
+.footer-social-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+  font-family: var(--font-family);
+}
+
+.social-list-f {
+  display: flex;
+  gap: 16px;
 }
