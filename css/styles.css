@@ -106,7 +106,6 @@ ul {
   flex-direction: row;
   gap: 40px;
   align-items: center;
-  padding: 24px 0;
 }
 
 .nav-list-a {
@@ -158,13 +157,8 @@ ul {
 }
 
 .solutions {
-  padding: 188px 0;
-  background-color: var(--navy-blue);
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(/images/people-office.jpg);
+  padding: 188px 0; 
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
