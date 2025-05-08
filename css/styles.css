@@ -539,6 +539,12 @@ ul {
   padding-top: 8px;
   padding-bottom: 8px;
   color: var(--white);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 200%;
+  letter-spacing: 0.04em;
+  color: var(--white);
 }
 
 .input-footer::placeholder {
@@ -577,6 +583,6 @@ ul {
 }
 
 .form-button-f:hover {
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-background: var(--ocean);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: var(--ocean);
 }
