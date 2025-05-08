@@ -74,7 +74,9 @@
       <section class="solutions">
         <div class="container solutions-container">
           <h1 class="first-header">Effective Solutions for Your Business</h1>
-          <button type="button" class="solutions-button">Order Service</button>
+          <button type="button" class="solutions-button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <section class="feature">
@@ -473,7 +475,20 @@
                       </li>
                 </ul>
             </div>
+            <div class="form-wrapper">
+              <p class="form-text-f">Subscribe</p>
+              <form class="footer-form">
+                <label for="email">
+                  <input type="email" name="email" id="email" class="input-footer" placeholder="E-mail">
+                </label>
+                <button class="form-button-f">Subscribe <svg class="form-button-svg-f" width="24" height="24">
+                  <use href="./images/icons.svg#icon-frame"></use>
+                </svg>
+              </button>
+              </form>
+            </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
