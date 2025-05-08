@@ -588,12 +588,38 @@ ul {
   background: var(--ocean);
 }
 
-font-family: var(--font-family);
-font-weight: 400;
-font-size: 12px;
-line-height: 117%;
-letter-spacing: 0.04em;
-color: var(--navy-blue-modal);
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(17, 17, 17, 0.5);
+}
+
+.is-open {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
+    0 2px 1px 0 rgba(0, 0, 0, 0.2);
+  background-color: var(--dairy);
+  padding: 72px 24px 24px 24px;
+  border-radius: 4px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
 
 .popup-button {
   display: block;
@@ -610,4 +636,22 @@ color: var(--navy-blue-modal);
   letter-spacing: 0.04em;
   color: var(--white);
   margin: auto;
+}
+
+label {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: 0.04em;
+  color: var(--light-slate);
+}
+
+.popup-header {
+  margin-bottom: 16px;
+}
+
+.svg-modal {
+  fill: black;
+  stroke: #2e2f42;
 }

@@ -2,35 +2,35 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="WebStudio" content="width=device-width, initial-scale=1.0" />
+    <meta name="WebStudio" content="width=device-width, initial-scale=1.0" >
     <title>WebStudio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
-    />
+    >
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
       integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />
+    >
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
       integrity="sha512-gnAN+RgTMylunXI7AMg+PtcUGpKZFkZJoFIkAWvdPFRrFJz3p2tx4+9xbjILRfN7CzoViMgS8vSf06fSQzWZjA=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    >
+    <link rel="stylesheet" href="./css/styles.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
-    />
+    >
   </head>
 
   <body>
@@ -489,44 +489,46 @@
             </div>
       </div>
     </footer>
-    <div>
-      <div>
-        <button></button>
-        <h3></h3>
+    <div class="backdrop is-open" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close" data-modal-close><svg class="svg-modal" width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg></button>
+        <h3 class="popup-header">Leave your contacts and we will call you back</h3>
         <form>
-          <label for="">Name</label>
+          <label for="name-popup">Name</label>
           <div>
-            <input type="text">
+            <input type="text" name="name" id="name-popup">
             <svg class="" width="18" height="24">
               <use href=""></use>
             </svg>
           </div>
-          <label for="">Phone</label>
+          <label for="phone-popup">Phone</label>
             <div>
-              <input type="text">
+              <input type="tel" name="phone" id="phone-popup">
               <svg class="" width="18" height="24">
                 <use href=""></use>
               </svg>
             </div>
-            <label for="">Email</label>
+            <label for="email-popup">Email</label>
             <div>
-              <input type="text">
+              <input type="email" name="email-popup" id="email-popup">
               <svg class="" width="18" height="24">
                 <use href=""></use>
               </svg>
             </div>
-            <label>Comment</label>
+            <label for="comment">Comment</label>
             <div>
-              <textarea name="" id=""
+              <textarea name="comment" id="comment"
               placeholder="Text input"
               ></textarea>
             </div>
             <div>
               <input 
               type="checkbox"
-              id=""
-              name="">
-              <label for="">I accept the terms and conditions of the <a href="#">Privacy Policy</a> </label>
+              id="checkbox-popup"
+              name="checkbox">
+              <label for="checkbox-popup">I accept the terms and conditions of the <a href="#">Privacy Policy</a> </label>
             </div>
             <button type="submit" class="popup-button">Send</button>
         </form>
