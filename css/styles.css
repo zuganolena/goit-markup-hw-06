@@ -552,20 +552,21 @@ ul {
 
 .form-button-f {
   position: relative;
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  border: none;
-  background-color: #4d5ae5;
-  border-radius: 4px;
+  display: flex;
+  min-width: 165px;
+  height: 40px;
   cursor: pointer;
+  border-radius: 4px;
+  background-color: var(--iris);
+  align-items: center;
+  justify-content: center;
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.04em;
+  text-align: center;
   color: var(--white);
-  margin: auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
@@ -573,4 +574,9 @@ ul {
 .form-button-svg-f {
   fill: var(--white);
   margin-left: 16px;
+}
+
+.form-button-f:hover {
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: var(--ocean);
 }
