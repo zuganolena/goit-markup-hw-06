@@ -636,16 +636,6 @@ ul {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close:hover > svg {
-  background-color: #404bbf; 
-  border: none;
-}
-
-.modal-close:focus > svg {
-  background-color: #404bbf; 
-  border: none;
-}
-
 .popup-button {
   display: block;
   min-width: 169px;
@@ -729,4 +719,21 @@ label {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.modal-close:hover,
+.modal-close:focus {
+background-color: #404BBF;
+border: none;
+}
+
+.modal-close:hover > svg,
+.modal-close:focus > svg {
+  fill: #FFFFFF;
+}
+
+.popup-input:focus + .input-icon-popup{
+fill: #4D5AE5;
 }
