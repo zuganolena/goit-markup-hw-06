@@ -636,7 +636,12 @@ ul {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close:hover, .modal-close:focus {
+.modal-close:hover {
+  background-color: #404bbf; 
+  border: none;
+}
+
+.modal-close:focus {
   background-color: #404bbf; 
   border: none;
 }
@@ -682,8 +687,12 @@ label {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.svg-modal:focus, .svg-modal:hover {
-  #ffffff;
+.svg-modal:focus  {
+  fill: #ffffff;
+}
+
+.svg-modal:hover {
+  fill: #ffffff;
 }
 
 .popup-form-wrapper {
