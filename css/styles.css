@@ -766,7 +766,7 @@ label {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.textarea-popup:hover {
+.textarea-popup:focus {
   border-color: #4D5AE5; 
 }
 
@@ -775,3 +775,29 @@ label {
 }
 
 .popup-checkbox {}
+
+.checkbox-span {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+
+.popup-checkbox:checked + .checkbox-label .checkbox-span {
+  background-color:  #404bbf;
+  border: none;
+}
+
+.popup-checkbox:checked + .checkbox-label .checkbox-span svg {
+  fill: #F4F4FD;
+}
+
+.check-link {
+  color: #4d5ae5;
+}
+
