@@ -554,14 +554,20 @@
             <label for="user-comment" class="popup-form-label">Comment</label>
             <textarea
               class="textarea-popup"
-              name="comment"
+              name="user-comment"
               id="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
-          <div>
-            <input type="checkbox" id="use" name="use" />
-            <label for="use"
+          <div class="checkbox-wrapper">
+            <input
+              type="checkbox"
+              id="user-privacy"
+              name="user-privacy"
+              class="popup-checkbox visually-hidden"
+              value="true"
+            />
+            <label for="user-privacy"
               >I accept the terms and conditions of the
               <a href="#">Privacy Policy</a>
             </label>
