@@ -793,7 +793,7 @@ label {
   border: none;
 }
 
-.popup-checkbox:checked + .checkbox-label .checkbox-span svg {
+.popup-checkbox:checked + .checkbox-label .checkbox-span .check-svg {
   fill: #F4F4FD;
 }
 
