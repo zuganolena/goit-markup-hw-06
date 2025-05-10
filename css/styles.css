@@ -791,9 +791,6 @@ label {
 .popup-checkbox:checked + .checkbox-label .checkbox-span {
   background-color:  #404bbf;
   border: none;
-}
-
-.popup-checkbox:checked + .checkbox-label .checkbox-span .check-svg {
   fill: #F4F4FD;
 }
 
